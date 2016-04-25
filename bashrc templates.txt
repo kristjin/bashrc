@@ -1,0 +1,21 @@
+﻿Standard
+
+PS1="\[\033[38;5;10m\][\[$(tput sgr0)\]\[\033[38;5;27m\]\t\[$(tput sgr0)\]\[\033[38;5;10m\]]\[$(tput sgr0)\]\[\033[38;5;75m\]\u\[$(tput sgr0)\]\[\033[38;5;10m\]@\[$(tput sgr0)\]\[\033[38;5;33m\]\h\[$(tput sgr0)\]\[\033[38;5;10m\]:\[$(tput sgr0)\]\[\033[38;5;15m\]\n\[$(tput sgr0)\]\[\033[38;5;10m\]{\[$(tput sgr0)\]\[\033[38;5;14m\]\w\[$(tput sgr0)\]\[\033[38;5;10m\]}\\$\[$(tput sgr0)\]"
+
+Root
+
+PS1="\[\033[38;5;255m\][\t]\[$(tput sgr0)\]\[\033[38;5;196m\]\u\[$(tput sgr0)\]\[\033[38;5;4m\]@\[$(tput sgr0)\]\[\033[38;5;198m\]\h\[$(tput sgr0)\]\[\033[38;5;255m\]:\[$(tput sgr0)\]\[\033[38;5;15m\]\n\[$(tput sgr0)\]\[\033[38;5;202m\]{\[$(tput sgr0)\]\[\033[38;5;11m\]\w\[$(tput sgr0)\]\[\033[38;5;202m\]}\[$(tput bold)\]\[$(tput sgr0)\]\[\033[38;5;196m\]\[\033[48;5;232m\]\\$\[$(tput sgr0)\]"
+
+Everybody
+
+# You may uncomment the following lines if you want `ls' to be colorized:
+ export LS_OPTIONS='--color=auto'
+ eval "`dircolors`"
+ alias ls='ls $LS_OPTIONS'
+ alias ll='ls $LS_OPTIONS -l'
+ alias l='ls $LS_OPTIONS -lA'
+
+# Some more alias to avoid making mistakes:
+ alias rm='rm -i'
+ alias cp='cp -i'
+ alias mv='mv -i'
